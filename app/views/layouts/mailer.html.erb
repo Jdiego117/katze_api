@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */   
+      @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.head {
+			width: 100%;
+			height: 15vh;
+			border-bottom: 1px solid #bfbfbf;
+			font-size: 4em;
+			font-family: 'Roboto';
+		}
+
+		.text1 {
+			width: 80%;
+			margin: 0 auto;
+			font-size: 2em;
+			font-family: 'Roboto';
+		}
+
+    </style>
+  </head>
+
+  <body>
+  	<div class="head">
+		<i class="fas fa-cat"></i>
+		Katze
+	</div>
+    <%= yield %>
+  </body>
+</html>
